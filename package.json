@@ -1,0 +1,24 @@
+{
+  "name": "websocketstest",
+  "version": "1.0.0",
+  "description": "Creating a websocket server for the course VIP-21 at Malmö University",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petterekedahl/webSocketsTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petterekedahl/webSocketsTest/issues"
+  },
+  "homepage": "https://github.com/petterekedahl/webSocketsTest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.3"
+  }
+}
